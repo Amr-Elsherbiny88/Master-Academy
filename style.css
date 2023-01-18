@@ -21,6 +21,7 @@ nav .fa-brands{
 
 .intro-img img {
     margin-top: 200px;
+    
 }
 
 
@@ -162,17 +163,11 @@ nav .fa-brands{
      
      
 
-    .intro-img {
-        height: 100px;
-        width: 0px;
-        
-        
-    }
    
      .intro-img img {
-         width: 150px;
-         height: 150px;
-         margin-left: 100px;
+        
+        max-width: 250px;
+        margin-left: 110px;
          margin-top: -1px;
      }
   
@@ -183,27 +178,27 @@ nav .fa-brands{
 
 }
 
-/* 
+
+
+
+
+
 @media only screen and (max-width:1023px) and (min-width:768){
-
+ 
     nav {
-        margin-bottom: 250px;
+        margin-bottom: 150px;
     }
-    
-    .intro-img {
-        height: 100px;
-        width: max-content;
-       align-items: center;
-    }
+     
+     
 
-    .intro-img img {
-      scale: 1; 
-       
-      
-       
-       
-       
-    }
+   
+     .intro-img img {
+        
+        max-width: 250px;
+        margin-left: 110px;
+         margin-top: -1px;
+     }
+  
    
     .intro-text {
         margin-top: -1px;
@@ -218,5 +213,6 @@ nav .fa-brands{
 
 
 
+}
 
-} */
+
