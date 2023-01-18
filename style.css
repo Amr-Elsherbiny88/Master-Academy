@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: black;
+}
+/* nav start */
+nav .fa-brands{
+    scale: 1.1;
+    color: blue;
+}
+/* nav end */
+
+.intro {
+    background-color: black;
+    height: 100vh;
+}
+
+.intro-img img {
+    margin-top: 200px;
+}
+
+
+.intro-text{
+    margin-top: 400px;
+    color: white;
+    text-align: center;
+}
+
+nav .fa-brands{
+    scale: 1.1;
+    color: blue;
+}
+
+::-webkit-scrollbar{
+    width: fit-content;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px){
+
+    nav {
+        margin-bottom: 250px;
+    }
+    
+    .intro-img {
+        height: 100px;
+        width: max-content;
+       align-items: center;
+    }
+
+    .intro-img img {
+       
+       width:100px;
+      
+       scale: 2;
+       margin-left: 180px;
+       margin-top: 50px;
+    }
+   
+    .intro-text {
+        margin-top: -1px;
+    } 
+
+}
+
+
+@media only screen and (max-width:1023px) and (min-width:768){
+
+    nav {
+        margin-bottom: 250px;
+    }
+    
+    .intro-img {
+        height: 100px;
+        width: max-content;
+       align-items: center;
+    }
+
+    .intro-img img {
+      scale: 1; 
+       
+      
+       
+       
+       
+    }
+   
+    .intro-text {
+        margin-top: -1px;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+}
