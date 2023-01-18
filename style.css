@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(red, yellow);
 }
 /* nav start */
 nav .fa-brands{
@@ -15,7 +15,7 @@ nav .fa-brands{
 /* nav end */
 
 .intro {
-    background-color: black;
+   
     height: 100vh;
 }
 
@@ -155,22 +155,20 @@ nav .fa-brands{
 
 
 
-@media only screen and (max-width:767px) and (min-width:407px){
+@media only screen and (max-width:767px) and (min-width:525px){
 
     nav {
         margin-bottom: 150px;
     }
      
-     
-
-   
-     .intro-img img {
-        
-        max-width: 250px;
-        margin-left: 75px;
-         margin-top: -1px;
+     .intro-img {
+       align-items: center;
      }
   
+      .intro-img img {
+        width: min-content;
+      }
+   
    
     .intro-text {
         margin-top: -1px;
@@ -179,30 +177,29 @@ nav .fa-brands{
 }
 
 
-@media only screen and (max-width:407px) and (min-width:0px){
+@media only screen and (max-width:525px) and (min-width:0px){
 
     nav {
         margin-bottom: 150px;
     }
      
-     
-
-   
-     .intro-img img {
-        
-        max-width: 250px;
-       
-         margin-top: -1px;
+     .intro-img {
+       align-items: center;
+       margin: auto;
      }
   
+      .intro-img img {
+        width: 75%;
+        margin: auto;
+        margin-left: 50px;
+      }
+   
    
     .intro-text {
         margin-top: -1px;
     } 
 
 }
-
-
 
 
 
@@ -213,13 +210,11 @@ nav .fa-brands{
     }
      
      
-
    
      .intro-img img {
         
-        max-width: 250px;
-        margin-left: 110px;
-         margin-top: -1px;
+        max-width: 300px;
+       margin: auto;
      }
   
    
