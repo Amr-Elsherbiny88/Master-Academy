@@ -174,11 +174,18 @@ nav .fa-brands{
     }
      
         /* intro start */
+        .intro {
+            height: 800px;
+          }
+
+
+        
      .intro-img {
        align-items: center;
      }
   
       .intro-img img {
+        
         width: min-content;
       }
    
@@ -242,6 +249,11 @@ nav .fa-brands{
 /* intro end */
 
     /* about start */
+
+     .about {
+        height: 600px;
+     }
+
    .about-img {
         
     align-items: center;
