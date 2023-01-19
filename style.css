@@ -7,34 +7,7 @@
 body{
     background-image: linear-gradient(red, yellow);
 }
-/* nav start */
-nav .fa-brands{
-    scale: 1.1;
-    color: blue;
-}
-/* nav end */
 
-.intro {
-   
-    height: 100vh;
-}
-
-.intro-img img {
-    margin-top: 200px;
-    
-}
-
-
-.intro-text{
-    margin-top: 400px;
-    color: white;
-    text-align: center;
-}
-
-nav .fa-brands{
-    scale: 1.1;
-    color: blue;
-}
 
 ::-webkit-scrollbar{
     width: fit-content;
@@ -48,15 +21,54 @@ nav .fa-brands{
     background-color: yellow;
 }
 
+/* nav start */
+nav .fa-brands{
+    scale: 1.1;
+    color: blue;
+}
+/* nav end */
+
+/* intro start */
+.intro {
+   
+    height: 100vh;
+}
+
+.intro-img img {
+    margin-top: 100px;
+    
+}
 
 
+.intro-text{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+}
+/* intro end */
 
+/* about academy start */
 
+.about {
+    background-color: black;
+    height: 100vh;
+}
 
+.about-t {
+    text-align: center;
+    color: white;
+    margin-top: 250px;
 
+}
 
+.about-img {
+   margin-top: 150px;
+}
 
-
+.about-img img {
+    height: 350px;
+    width: 650px;
+}
 
 
 
@@ -161,6 +173,7 @@ nav .fa-brands{
         margin-bottom: 150px;
     }
      
+        /* intro start */
      .intro-img {
        align-items: center;
      }
@@ -173,6 +186,26 @@ nav .fa-brands{
     .intro-text {
         margin-top: -1px;
     } 
+      /* intro end */
+
+      .about-img {
+        align-items: center;
+      }
+   
+       .about-img img {
+         width: 75%;
+         height: 200px;
+         margin-left: 65px;
+         margin-top: -50px;
+         margin-bottom: 50px;
+       }
+    
+    
+     .about-t {
+         margin-top: -1px;
+     } 
+
+
 
 }
 
@@ -183,12 +216,15 @@ nav .fa-brands{
         margin-bottom: 150px;
     }
      
+    /* intro start */
      .intro-img {
+        
        align-items: center;
        margin: auto;
      }
   
       .intro-img img {
+        
         width: 75%;
         margin: auto;
         margin-left: 50px;
@@ -198,7 +234,29 @@ nav .fa-brands{
     .intro-text {
         margin-top: -1px;
     } 
+/* intro end */
 
+    /* about start */
+   .about-img {
+        
+    align-items: center;
+    margin: auto;
+    }
+
+    .about-img img {
+     height: 50%;
+     width: 75%;
+     margin: auto;
+     margin-left: 40px;
+     margin-top: 100px;
+     margin-bottom: 50px;
+     }
+
+
+    .about-t{
+     margin-top: -1px;
+   } 
+   /* about end */
 }
 
 
@@ -209,7 +267,7 @@ nav .fa-brands{
         margin-bottom: 150px;
     }
      
-     
+         /* intro start */
    
      .intro-img img {
         
@@ -221,16 +279,21 @@ nav .fa-brands{
     .intro-text {
         margin-top: -1px;
     } 
+/* intro end */
 
+    .about-img{
+        width: 50%;
+    }
 
+ 
+    .about-img img {
+         width: 50%;
+ 
 
+    }
 
-
-
-
-
-
-
+    .about-t{
+        margin-left: 100px;
+    }
 }
-
 
