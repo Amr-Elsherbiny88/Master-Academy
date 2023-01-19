@@ -5,9 +5,8 @@
 }
 
 body{
-    background-image: linear-gradient(red, yellow);
+    background-color: rgb(42, 42, 42);
 }
-
 
 ::-webkit-scrollbar{
     width: fit-content;
@@ -30,7 +29,7 @@ nav .fa-brands{
 
 /* intro start */
 .intro {
-   
+    background-image: linear-gradient(red, yellow);
     height: 100vh;
 }
 
