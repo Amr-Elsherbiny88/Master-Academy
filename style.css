@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(42, 42, 42);
+    background-image: linear-gradient(red, yellow);
 }
 
 ::-webkit-scrollbar{
@@ -29,7 +29,7 @@ nav .fa-brands{
 
 /* intro start */
 .intro {
-    background-image: linear-gradient(red, yellow);
+   
     height: 100vh;
 }
 
@@ -78,6 +78,10 @@ nav .fa-brands{
 .car img {
     height: 700px;
    
+}
+
+.car {
+    background-color: rgb(42, 42, 42);
 }
 
 
@@ -235,6 +239,7 @@ nav .fa-brands{
     /* intro start */
       .intro {
         height: 600px;
+        
       }
 
      .intro-img {
@@ -260,7 +265,7 @@ nav .fa-brands{
     /* about start */
 
      .about {
-        height: 850px;
+        height: 750px;
      }
 
    .about-img {
@@ -290,6 +295,7 @@ nav .fa-brands{
    .car img {
     height: 300px;
    }
+   
 }
 
 
