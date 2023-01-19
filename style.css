@@ -4,6 +4,11 @@
     
 }
 
+.bo-dy {
+    background-color: rgb(42, 42, 42);
+    height: max-content;
+}
+
 body{
     background-image: linear-gradient(red, yellow);
 }
@@ -73,6 +78,7 @@ nav .fa-brands{
 
 /* about academy end */
 
+
 /* carosel start */
 
 .car img {
@@ -82,11 +88,27 @@ nav .fa-brands{
 
 .car {
     background-color: rgb(42, 42, 42);
+    margin-bottom: 300px;
 }
 
+/* carosel end */
 
+/* card start */
+.card img {
+    height: 250px;
+    
+}
 
+.ca-rd {
+  
+    margin-top: -75px;
+    margin-bottom: 200px;
+}
 
+.ca-rd:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
 
 
 
@@ -296,6 +318,7 @@ nav .fa-brands{
     height: 300px;
    }
    
+   /* carosel end */
 }
 
 
