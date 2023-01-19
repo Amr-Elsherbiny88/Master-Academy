@@ -44,6 +44,7 @@ nav .fa-brands{
     margin-top: 300px;
     color: white;
     text-align: center;
+   
 }
 /* intro end */
 
@@ -58,6 +59,7 @@ nav .fa-brands{
     text-align: center;
     color: white;
     margin-top: 250px;
+    
 
 }
 
@@ -70,6 +72,14 @@ nav .fa-brands{
     width: 650px;
 }
 
+/* about academy end */
+
+/* carosel start */
+
+.car img {
+    height: 700px;
+   
+}
 
 
 
@@ -274,6 +284,13 @@ nav .fa-brands{
      margin-top: -1px;
    } 
    /* about end */
+
+
+   /* carosel start */
+
+   .car img {
+    height: 300px;
+   }
 }
 
 
