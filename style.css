@@ -213,12 +213,16 @@ nav .fa-brands{
 @media only screen and (max-width:525px) and (min-width:0px){
 
     nav {
-        margin-bottom: 400px;
+        margin-bottom: 150px;
     }
      
     /* intro start */
+      .intro {
+        height: 450px;
+      }
+
      .intro-img {
-        height: 50px;
+       
        align-items: center;
        margin: auto;
      }
@@ -232,7 +236,7 @@ nav .fa-brands{
    
    
     .intro-text {
-        height: 100px;
+       
         margin-top: -1px;
     } 
 /* intro end */
